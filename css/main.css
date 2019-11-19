@@ -43,6 +43,10 @@ div ul {
   margin: 0;
 }
 
+ul div {
+  list-style-type: none;
+}
+
 div h2 {
   font-weight: normal;
   margin-bottom: 0;
@@ -58,15 +62,13 @@ div p {
 
   .card {
     display: block;
-    width: 70%;
     padding: 0;
   }
 
-  .cards {
-    display: flex;
-    flex-wrap: wrap;
+  .cards-img {
+    width: 16%;
+    margin: 0 auto;
   }
-
 }
 
 @media only screen and (min-width: 38em) {
@@ -98,5 +100,3 @@ div p {
   }
 
 }
-
-@media only screen and (min-width: 90em) {
