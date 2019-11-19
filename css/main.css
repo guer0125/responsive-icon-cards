@@ -24,6 +24,7 @@ body {
 
 .cards {
   width: 100%;
+  list-style-type: none;
 }
 
 img {
@@ -38,8 +39,7 @@ img {
 }
 
 div ul {
-  list-style-type: none;
-  padding: .50rem;
+  padding: .5rem;
   margin: 0;
 }
 
@@ -47,15 +47,21 @@ ul div {
   list-style-type: none;
 }
 
-div h2 {
+.card-body h2 {
   font-weight: normal;
   margin-bottom: 0;
-  margin-top: .90em;
+  margin-top: .9em;
 }
 
-div p {
+.card-body p {
   margin-top: 0;
   margin-bottom: 1.25em;
+}
+
+@media only screen and (min-width: 20em) {
+
+  .cards-img img {
+    width: 20%;
 }
 
 @media only screen and (min-width: 25em) {
@@ -69,6 +75,7 @@ div p {
     width: 16%;
     margin: 0 auto;
   }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -97,6 +104,14 @@ div p {
   .cards {
     display: flex;
     flex-wrap: wrap;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .text {
+    display: flex;
   }
 
 }
