@@ -32,7 +32,7 @@ img {
   width: 100%;
 }
 
-.cards-img {
+.card-img img {
   width: 20%;
   margin: 0 auto;
   padding: 0 .35rem;
@@ -60,8 +60,10 @@ ul div {
 
 @media only screen and (min-width: 20em) {
 
-  .cards-img img {
+  .card-img img {
     width: 20%;
+  }
+
 }
 
 @media only screen and (min-width: 25em) {
@@ -71,7 +73,7 @@ ul div {
     padding: 0;
   }
 
-  .cards-img {
+  .card-img img {
     width: 16%;
     margin: 0 auto;
   }
@@ -79,6 +81,11 @@ ul div {
 }
 
 @media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
   .card {
     display: block;
@@ -95,6 +102,11 @@ ul div {
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
   .card {
     display: block;
     width: 25%;
@@ -108,7 +120,7 @@ ul div {
 
 }
 
-@media only screen and (min-width: 90em) {}
+@media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
